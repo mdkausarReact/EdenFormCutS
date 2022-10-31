@@ -1,0 +1,136 @@
+.App {
+    text-align: center;
+    /* height: 100vh; */
+    align-content: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.f-container{
+     /* width: 400px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    text-align: left;
+}
+.butn{
+  margin-top: 28px;
+}
+.btn-primary {
+  /* --bs-btn-color: #fff; */
+  --bs-btn-bg: #7829f7;
+}
+
+.displayin{
+  margin-top: 8px;
+}
+
+.active {
+  background-color: teal;
+  color: white;
+}
+
+
+
+
+.progressbar {
+  width: 400px;
+  height: 10px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.logo{
+  margin-bottom: 4rem
+}
+
+.card{
+  width: 10rem;
+  height: 11rem;
+}
+
+.user{
+  width: 49px;
+  height: 35px;
+}
+
+.ugroup{
+  width: 49px;
+    height: 37px;
+}
+
+.card-text{
+  font-size: 14px;
+
+}
+
+.finalpage-H1{
+  font-size: 35px;
+}
+
+.finalpage-P{
+  font-size: 14px;
+}
+
+.finalT{
+  
+    color:white;
+    width: 45px;
+    height: 45px;
+    font-size: 12px;
+    background-color:  #225dff;
+    
+    border-radius: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.main-first{
+  /* width:30% */
+       width: 21rem;
+
+}
+
+.p-bar{
+  width: 27%;
+  margin: auto;
+}
+
+
+.butn{
+  width: 21rem
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

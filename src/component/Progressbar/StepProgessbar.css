@@ -1,0 +1,46 @@
+.step{
+    color:white;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    background-color:  #225dff;
+    ;
+    border-radius: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.RSPBprogressBar {
+    height: 1px;
+    color: aliceblue;
+    line-height: 1;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgb(22 35 211 / 60%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+    
+    
+
+    }
+.RSPBprogression{
+    background: linear-gradient(to right, rgb(84 63 222), rgb(110 69 235));
+  }
+
+.step.completed{
+background-color:  #225dff;
+;
+}
+
+
+/* .p-bar{
+        
+} */
+
+.header{
+    margin-top:5rem;
+
+}
